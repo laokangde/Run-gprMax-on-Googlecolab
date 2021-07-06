@@ -26,11 +26,13 @@ os.chdir('/kaggle/working/gprMax')
 !python setup.py install
 ```
 
+![3](https://github.com/laokangde/Run-gprMax-on-Googlecolab/blob/master/command1.png?raw=true)
+
 ```
 # run gprMax
 !python -m gprMax ./user_models/cylinder_Bscan_2D.in -gpu -n 5
 ```
 
-![3](https://github.com/laokangde/Run-gprMax-on-Googlecolab/blob/master/run_model.png?raw=true)
+![4](https://github.com/laokangde/Run-gprMax-on-Googlecolab/blob/master/run_model.png?raw=true)
 
-Run gprMax on Kaggle GPU is really easy
+Run gprMax on Kaggle GPU is really easy.
